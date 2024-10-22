@@ -98,3 +98,6 @@ Este é um mini projeto desenvolvido em **Laravel v11.29.0** com **PHP v8.3.12**
 ## Instalação
 
 1. **Clone o repositório:**
+ 
+ ```bash
+https://github.com/Edimar-Dev/project-event-laravel.git
