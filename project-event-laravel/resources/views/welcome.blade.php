@@ -3,12 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="stylesheet" href="./css/styles.css">
+        <script src="./js/script.js"></script>
         <title>Laravel</title>
 
     </head>
     <body>
         <h1>Essa é a Página Inicial</h1>
+        <img src="./img/event3.jpg" alt="">
         @if (10 > 15)
             <p>A condição é true</p>
         @endif 
