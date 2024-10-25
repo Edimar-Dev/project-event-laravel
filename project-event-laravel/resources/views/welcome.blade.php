@@ -8,6 +8,13 @@
 
     </head>
     <body>
+
+    @extends('layouts.main')
+
+    @section('title', 'GERE UM COM')
+
+    @section('content')
+
         <h1>Essa é a Página Inicial</h1>
         @if (10 > 15)
             <p>A condição é true</p>
@@ -41,5 +48,4 @@
         @php 
             echo 'Olá, mundo!';
         @endphp     
-    </body>
-</html>
+    @endsection
