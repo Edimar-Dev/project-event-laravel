@@ -31,3 +31,7 @@ Route::get('/contato', function () {
 Route::get('/produto', function () {
     return view('produto');
 });
+
+Route::get('/produto_teste/{id?}', function ($id = null) {
+    return view('produtos', ['id' => $id]);
+});
