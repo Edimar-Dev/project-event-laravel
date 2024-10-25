@@ -16,6 +16,29 @@
         <script src="./js/script.js"></script> 
     </head>
     <body>
+     <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="collapse navbar-collapse" id="navbar">
+                <a href="/" class="navbar-brand">
+                    <img src="./img/logo.png" alt="LOGO GERE UM COM">
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-intem">
+                        <a href="/" class="nav-link">Eventos</a>
+                    </li>
+                    <li class="nav-intem">
+                        <a href="/" class="nav-link">Criar Eventos</a>
+                    </li>
+                    <li class="nav-intem">
+                        <a href="/" class="nav-link">Entrar</a>
+                    </li>
+                    <li class="nav-intem">
+                        <a href="/" class="nav-link">Cadastrar</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+     </header>   
      @yield('content')   
      <footer>
         <p>GERE UM COM &copy; 2024 </p>
