@@ -26,4 +26,8 @@ class EventController extends Controller
             'nomes' => $nomes
         ]);
     }
+
+    public function create(){
+        return view('events.create');
+    }
 }
