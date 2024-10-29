@@ -20,7 +20,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="collapse navbar-collapse" id="navbar">
                 <a href="/" class="navbar-brand">
-                    <img src="./img/logo.png" alt="LOGO GERE UM COM">
+                    <img src="./img/logo1.png" alt="LOGO GERE UM COM">
                 </a>
                 <ul class="navbar-nav">
                     <li class="nav-intem">

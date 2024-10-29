@@ -1,4 +1,13 @@
+/* Add your custom styles here */
+
+
+/* fonte da página */
 * {
     font-family: 'Oxanium';
 }
 
+/* IMG logo*/
+
+#navbar img {
+    width: 80px;
+}
