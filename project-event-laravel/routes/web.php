@@ -12,9 +12,13 @@ Route::get('/contato', function () {
 
 // create view (criação da viu da página de produto) produto.blade.php
 Route::get('/produto', function () {
-    return view('produto');
+    
+    $busca = request('search');
+    
+    return view('produto', ['busca' => $busca]);
 });
 
-Route::get('/produto_teste/{id?}', function ($id = null) {
+// create view (criação da viu da página de produto) produtos.blade.php
+Route::get('/produtos_teste/{id?}', function ($id = null) {
     return view('produtos', ['id' => $id]);
 });
