@@ -43,5 +43,6 @@
      <footer>
         <p>GERE UM COM &copy; 2024 </p>
      </footer>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
