@@ -41,7 +41,7 @@
      </header>   
      @yield('content')   
      <footer>
-        <p>GERE UM COM &copy; 2024 </p>
+        <p>&copy; 2024 GERE UM COM. Todos os direitos reservados. </p>
      </footer>
      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
