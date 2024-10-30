@@ -24,7 +24,7 @@ return new class extends Migration
     {
         Schema::table('produtos', function (Blueprint $table) {
             //
-            $table->string('categoria', 100);
+            $table->dropColumn('categoria');
         });
     }
 };
