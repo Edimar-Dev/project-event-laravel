@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('events', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->timestamps(); // Cria as colunas created_at e updated_at
             $table->string('title'); // Título do evento
             $table->text('description'); // Descrição do evento
             $table->string('city'); // Cidade onde o evento ocorrerá
