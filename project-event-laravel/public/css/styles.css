@@ -9,8 +9,9 @@ body {
     min-height: 100vh;
     /* padding: 100px; */
     position: relative;
-}
+    line-height: normal;
 
+}
 
 header {
     background-color: #FFF;
@@ -19,6 +20,7 @@ header {
 
 .row {
     margin: 0;
+    
 }
 
 .container-fluid {
@@ -82,7 +84,7 @@ header {
 /* --------------- Lista de Eventos -------------- */
 
 #events-container {
-    padding: 50px;
+    padding: 100px;
 }
 
 #events-container h2 {
@@ -136,7 +138,7 @@ footer {
     background-color: #353E48;
     color: #FFF;
     padding: 30px;
-    /* position: absolute; */
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
