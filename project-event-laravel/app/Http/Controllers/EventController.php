@@ -30,7 +30,7 @@ class EventController extends Controller
         $event->description = $request->description;
 
         // UPLOAD DE IMG
-        if($request->hasFile('imagem') && $request->file('imagem')->isValid()){
+        if($request->hasFile('image') && $request->file('image')->isValid()){
 
             $requestImage = $request->image;
 
